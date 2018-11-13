@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Vibur');
+
+h2{
+font-family: 'Vibur', cursive;
+font-size: 24px;	
+text-decoration-line: none;	
+} 
+.site-title{
+text-decoration: none;	
+}
+
+body{
+	font-family: 'Lato';
+		font-size: 16px;
+}
+
+
+h2.entry-title { 
+	border: none;
+	text-decoration: none;
+}
+
+a {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (min-width:750px)
+{
+	.site-content{
+		display:grid;
+	  grid-template-columns: 3fr 1fr;
+		grid-gap: 24px;
+	}
+	
+}
