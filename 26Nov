@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Vibur');
+
+h2{
+font-family: 'Vibur', cursive;
+font-size: 24px;	
+text-decoration-line: none;
+	color: red;
+} 
+
+h3{
+font-family: 'Vibur', cursive;
+font-size: 18px;	
+text-decoration-line: none;	
+color: red;
+} 
+.site-title{
+text-decoration: none;	
+}
+body{
+	font-family: 'Lato';
+		font-size: 16px;
+	
+}
+.custom-logo{
+	width: 500px;
+}
+h1.entry-title { 
+	font-family: 'Vibur', cursive;
+	border: none;
+	text-decoration: none;
+	color: red;
+}
+ul {
+ list-style: none;
+ margin-left: 0;
+ padding-left: 1em;
+ text-indent: -1em;
+ }
+
+.menu-item{
+	font-weight: 700;
+}
+.copyright {
+	font-family: "Vibur", sans-serif;
+	font-size: 14pt;
+	line-height: normal;
+	font-weight: normal;
+	color: #ff0012;
+	text-decoration: none;
+}
+.returntotop{
+	font-size: 10pt;
+}
+
+a {
+    color: #A9A9A9;
+    cursor: pointer;
+    text-decoration: none;
+		font-weight: 700;
+		font-size: 20px;	
+}
+
+a:visited {
+    color: red;
+		font-weight: 700;
+}
+@media screen and (min-width: 37.5em) {
+	.main-navigation ul {
+		justify-content: space-evenly;
+	}
+	.site-content {
+		width: 95%;
+		max-width: 1080px;
+	margin: 15px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 2em;
+	}
+}
